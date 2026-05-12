@@ -1,3 +1,6 @@
+======================INITIAL METHOD FOR PUSHING=================================
+
+
 C:\Users\user\Desktop\js session>git init
 Initialized empty Git repository in C:/Users/user/Desktop/js session/.git/
 
@@ -39,5 +42,26 @@ Total 13 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/elisate/js_session.git
  * [new branch]      main -> main
 branch 'main' set up to track 'origin/main'.
+
+C:\Users\user\Desktop\js session>
+
+======================ADDING CHANGES DONE=================================
+
+C:\Users\user\Desktop\js session>git add .
+
+C:\Users\user\Desktop\js session>git commit -m "add read me file"
+[main 7b153ea] add read me file
+ 1 file changed, 43 insertions(+), 1 deletion(-)
+
+C:\Users\user\Desktop\js session>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 873 bytes | 873.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.                                                                        
+To https://github.com/elisate/js_session.git
+   f65971d..7b153ea  main -> main
 
 C:\Users\user\Desktop\js session>
